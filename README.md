@@ -1,4 +1,4 @@
-# Bin2Dec 
+# [Bin2Dec](https://sancheesandre.github.io/Bin2DecTentativa358/) 
 ---
 Conversor de números binários para números decimais 
 
