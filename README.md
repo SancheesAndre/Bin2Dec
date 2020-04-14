@@ -1,5 +1,5 @@
 # Bin2Dec 
-#### [Ir para o site](https://sancheesandre.github.io/Bin2DecTentativa358/)
+#### [Ir para o site](https://sancheesandre.github.io/Bin2Dec/)
 ---
 Conversor de números binários para números decimais 
 
