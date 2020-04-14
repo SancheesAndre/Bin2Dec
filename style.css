@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url("wallpaper.jpg");
+    background-color: rgba(33,34,44,.5);
+    
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: none;
+    color: #a84e7f ;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+
+button:focus {
+    outline: none;
+   }
+   
+   button:before {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.5);
+       width: 60px;
+       height: 100%;
+       left: 0;
+       top: 0;
+       opacity: .5;
+       filter: blur(30px);
+       transform: translateX(-130px) skewX(-15deg);
+   }
+   
+   button:after {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.2);
+       width: 30px;
+       height: 100%;
+       left: 30px;
+       top: 0;
+       opacity: 0;
+       filter: blur(30px);
+       transform: translateX(-100px) scaleX(-15deg);
+   }
+   
+   button:hover {
+      background: #a84e7f;
+      cursor: pointer;
+   }
+   
+   button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+   }
+   
+   button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+   }
+
+textarea {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 40px;
+    width: 30%;
+    resize: none;
+    font-size: 2.5em;
+    text-align: center;
+    color: #a84e7f;
+}
+
+h1.mensagem {
+    position: relative;
+    text-align: center;
+    color: #508998;
+    top: 20%;
+}
+
+h1#convertido {
+    position: absolute;
+    text-align: center;
+    color: #d4ce6b;
+    top: 55%;
+    left: 30%;
+}
+
+.wrapper {
+    border-radius: 20px;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background: #282a36;
+
+}
