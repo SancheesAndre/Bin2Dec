@@ -100,7 +100,7 @@ h1.mensagem {
     top: 20%;
 }
 
-h1#convertido {
+h1.convertido {
     position: absolute;
     text-align: center;
     color: #d4ce6b;

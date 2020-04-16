@@ -22,7 +22,7 @@ Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
 - A determinação do equivalente decimal de um dígito binário específico na sequência deve ser calculada usando uma única função matemática, por exemplo, Logaritmo natural. Cabe a você descobrir qual função usar. 
 # Histórias de usuários
 - [x] O usuário pode inserir até 8 dígitos binários em um campo de entrada
-- [ ] O usuário deve ser notificado se algo diferente de 0 ou 1 foi inserido
+- [x] O usuário deve ser notificado se algo diferente de 0 ou 1 foi inserido
 - [x] O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi inserido.
 ---
  # Recursos de bônus
